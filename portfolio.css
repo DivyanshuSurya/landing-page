@@ -1,0 +1,405 @@
+xbody {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(0deg, #74C5D9, #F7E4AD, #F9AF53, #D8653F);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Rest of the CSS remains the same */
+
+/* Import a cursive font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive; /* Apply cursive font */
+    color: white;
+}
+
+a {
+    color: #deeaf6; /* DodgerBlue links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(182, 116, 233);
+    font-size: 1.05rem;
+}
+
+/* Header and Navigation */
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+header {
+    background-color: #2f2828; /* Darker shade of black */
+    padding: 20px;
+    text-align: center;
+}
+.resume-button {
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 5px;
+    font-weight: bold;
+    color: white;
+     /* Blue color */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(0deg, #74C5D9, #F7E4AD, #F9AF53, #D8653F);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* Rest of the CSS remains the same */
+
+
+a {
+    color: #deeaf6; /* DodgerBlue links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(182, 116, 233);
+    font-size: 1.05rem;
+}
+
+/* Header and Navigation */
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+header {
+    background-color: #2f2828; /* Darker shade of black */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+
+
+
+.nav-toggle {
+    display: none;
+}
+/* Specific Section Styles */
+.cover-photo {
+    background: url('https://pbs.twimg.com/profile_images/1707398013398974464/lu87Drbo_400x400.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Rest of the section styling */
+
+
+/* About Section */
+#about {
+    padding: 100px 100px;
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-picture-container {
+    margin-bottom: 40px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    border: 5px solid #fff; /* White border around the profile picture */
+    width: 150px;
+    height: 150px;
+    
+}
+
+.about-text h1 {
+    font-size: 2.5rem;
+    margin: 10px 0 5px;
+    color: #1e90ff; /* DodgerBlue for the name */
+}
+
+.about-text h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #ff6347; /* Tomato color for profession */
+}
+
+.about-text p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+/* Social Links */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.social-links a:hover {
+    color: #1e90ff; /* DodgerBlue on hover */
+}
+
+/* Section Headings */
+section h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #1e90ff; /* DodgerBlue for section headings */
+}
+
+/* Experience Section */
+#experience ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#experience ul li {
+    background-color:#96CEC1; /* Darker black for job cards */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#experience ul li h2 {
+    font-size: 1.5rem;
+    color: #ff6347; /* Tomato color for job titles */
+    margin-bottom: 10px;
+}
+
+#experience ul li p {
+    margin: 5px 0;
+}
+
+/* Projects Section */
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects ul li {
+    background-color: #E77437;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#projects ul li h2 {
+    font-size: 1.5rem;
+    color: #080303;
+    margin-bottom: 10px;
+}
+
+#projects ul li p {
+    margin: 5px 0 15px;
+}
+
+.project-screenshot {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skills ul li {
+    background-color: #48265d; /* Slightly lighter black for skills */
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 1rem;
+    color: #fff;
+}
+
+/* Education, Achievements, and Hobbies Sections */
+#education, #achievements, #hobbies {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#education ul, #achievements ul, #hobbies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#education ul li, #achievements ul li, #hobbies ul li {
+    background-color: #E8F0D7; /* Darker black for these sections */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#education ul li h2, #achievements ul li h2, #hobbies ul li h2 {
+    font-size: 1.5rem;
+    color: #2c2220; /* Tomato color for titles */
+    margin-bottom: 10px;
+}
+
+#education ul li p, #achievements ul li p, #hobbies ul li p {
+    margin: 5px 0;
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin: 10px 0;
+}
+
+#contact ul li i {
+    margin-right: 10px;
+    color: #ff6347; /* Tomato color for contact icons */
+}
+
+#contact form {
+    margin-top: 30px;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #1e90ff;
+    background-color: #88d8f1;
+    color: #000000;
+}
+
+#contact input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e90ff;
+    color: #ceb5b5;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #ff6347;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+    }
+}
+.wave {
+    display: inline-block;
+    animation: wave 2s infinite;
+}
+
+/* Waving animation */
+@keyframes wave {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); } 
+    100% { transform: rotate(0deg); }
+}
